@@ -1,0 +1,16 @@
+Wave Transformations
+This is the first time I've tried doing transformations like this. The main issue I was having was trying to get it in the right place. I tried placing them in the sections, like the header or the bio, and trying to place the text above the images. In the end, the simplest and most effective way was placing them between the sections and subtracting the margin either from the top or bottom to align them correctly. If I placed them in the sections, then I'd be adding a TON of margin to make sure they were lined up correctly. I had to add some media queries since they weren't lined up correctly at some screen sizes. 
+
+
+Image Resizing
+The two images that were the most problem were my profile picture and the Cloudinary images. For the profile picture, getting it so that it didn't stretch weird was pretty annoying as well as getting the correct size. I ended up setting `w-75` to make it still look good at all screen sizes. 
+
+For the cloudinary image, I actually found it best to hard code the size. It would never be the same dimensions meaning it would always stretch weird no matter what screen size. `img-fluid` and making them flexbox images wouldn't get me the correct sizes. 
+
+
+Ordering
+The ordering for Cloudinary and the Profile pictures weren't difficult to figure out once you posted about the reordering video in slack. Before that, I had duplicate images, one on the left and one on the right. I would hide the one on the left for larger screens and the one on the right for smaller screens. This meant that I could have the image on top for mobile view but be on the right for larger screens. Using `order` from Bootstrap meant I could just set the text order to 2 and the images default order to 1 but md screens and higher to 3. 
+
+
+Width
+One thing I haven't been able to figure out is the width on my phone when I turn it sideways. When I resize on my desktop, everything looks as it should. But when I look at it on my phone and turn it sideways, it doesn't reach the edges of my screen. I don't know if that's an Iphone thing since I have the notch but I can't think of a way to fix this issue that wouldn't mess things up for other screen sizes or devices. 

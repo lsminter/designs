@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap 5.3.2 style sheet -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Atkinson%20Hyperlegible">
+        <!-- Your style sheet -->
+        <link rel="stylesheet" href="css/style.css">
+        <title>Lucas Minter</title>
+    </head>
+
+    <body>
+
+        <div class="bg-white">
+            <h1 class="pt-3 px-5">
+                Lucas Minter
+            </h1>
+        </div>
+
+        <!-- separating out the waves to be in between the sections makes it easy to format exactly how I want them -->
+        <!-- I wrapped these in a div to hide them on small screens as the transitions would start to not look as flush as I wanted them to. -->
+        <div class="d-none d-sm-block">
+            <img
+                src="./images/vector-2.png"
+                alt="wave vector for section transitions"
+                class="top-wave-transition">
+        </div>
+
+        <!-- Biography and Skills section -->
+        <div class="bg-gray">
+            <section class="container p-2">
+                <div class="row mt-5 text-white">
+                    <div class="mt-4 mt-lg-4 col col-lg-6 align-middle order-2">
+                        <p>I'm Lucas, a Front-End Web Dev with a knack for Next.js and a love for Old School RuneScape. From competing in state competitions in high school to diving into coding certificates, I'm all about leveling up. While at egghead.io, I produced many courses while exploring new coding adventures. Now, my next adventure is to become a full-time Web Developer.</p>
+                        <!-- bio -->
+                        <h2>Skills</h2>
+                        <div class="row mb-3 justify-content-center px-4 px-sm-0">
+                            <ul class="col-12 col-md-5">
+                                <li>Python</li>
+                                <li>Figma (Software)</li>
+                                <li>Bootstrap (Framework)</li>
+                                <li>HTML</li>
+                                <li>Cascading Style Sheets (CSS)</li>
+                                <li>Responsive Web Design</li>
+                                <li>Version Control</li>
+                                <li>npm</li>
+                            </ul>
+                            <ul class="col-12 col-md-5">
+                                <li>GitHub</li>
+                                <li>JavaScript</li>
+                                <li>Tailwind CSS</li>
+                                <li>Content Management Systems (CMS)</li>
+                                <li>Next.js</li>
+                                <li>Web Development</li>
+                                <li>Creative Content</li>
+                                <li>React.js</li>
+                            </ul>
+                        </div>
+                        <div class="d-flex justify-content-between flex-wrap px-3">
+                            <img
+                                src="./images/python-icon.png"
+                                alt="python language icon"
+                                height="50"
+                                width="50">
+                            <img
+                                src="./images/bootstrap-icon.png"
+                                alt="bootstrap icon"
+                                height="50"
+                                width="50">
+                            <img
+                                src="./images/html-icon.png"
+                                alt="html icon"
+                                height="50"
+                                width="50">
+                            <img
+                                src="./images/git-icon.png"
+                                alt="git icon"
+                                height="50"
+                                width="50">
+                            <img
+                                src="./images/figma-icon.png"
+                                alt="figma icon"
+                                height="50"
+                                width="50">
+                            <img
+                                src="./images/nextjs-icon.png"
+                                alt="nextjs icon"
+                                height="50"
+                                width="50">
+                            <img
+                                src="./images/css-icon.png"
+                                alt="css icon"
+                                height="50"
+                                width="50">
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 d-flex justify-content-center order-1 order-lg-3">
+                        <img
+                            src="./images/flipped-profile-picture.png"
+                            alt="Lucas Minter wearing sunglasses walking through a park"
+                            class="img-fluid w-75 w-sm-100 bg-white p-2 rounded border border-dark border-3 rounded shadow">
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- another wave transition at the bottom of our bio and skills section -->
+        <div class="d-none d-sm-block">
+            <img
+                src="./images/top-wave.png"
+                alt="wave vector for section transitions"
+                class="bottom-wave-transition">
+        </div>
+
+        <!-- Personal Projects -->
+        <section class="container mt-5">
+            <div class="row px-4 px-sm-0">
+                <h2 class="mb-4">Personal Projects</h2>
+                <!-- Build a book club bot project -->
+                <div class="card mb-3">
+                    <div class="row shadow">
+                        <div class="d-flex justify-content-center col-md-4 bg-secondary p-4 rounded">
+                            <img
+                                src="./images/discord-course-logo.webp" class="img-fluid"
+                                alt="Icon of the discord logo and a robot"
+                                width="200">
+                        </div>
+                        <div class="d-flex col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Build a Book Club Bot with Discord.js</h3>
+                                <p class="card-text align-self-center">From helping developers reach their dreams creating courses, I created my own based on how to build your own discord bot. It was a vastly different experience from helping people create courses to creating a course myself. I learned a lot about screen casting as well as the management side of putting together many lessons into a course. It was fun to do and I plan on doing more in the future.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- cloudinary videos projects -->
+                <div class="card my-3">
+                    <div class="row shadow">
+                        <div class="d-flex col-md-8 order-2">
+                            <div class="card-body">
+                                <h3 class="card-title">Cloudinary Videos</h3>
+                                <p class="card-text align-self-center">I&apos;ve had the opportunity to create two YouTube videos for Cloudinary. One on how to add a watermark to an image using Cloudinary and the other one being how to implement the cloudinary-sanity plugin into a Next.js app. These videos took me a LOT longer to develop than videos I&apos;ve done in the past. These were much more structured and have a certain writing style that I&apos;m not used to. It was great to learn very detailed planning and scripting for a large company. It&apos;s something I really enjoyed doing and look forward to improving each video I create.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center col-md-4 bg-secondary p-4 rounded order-1 order-md-3">
+                            <img
+                                src="./images/cloudinary-cloud-glyph-blue-png.webp" class="align-middle"
+                                alt="Cloudinary's site icon"
+                                width="200">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- last wave transition -->
+        <div class="d-none d-sm-block">
+            <img
+                src="./images/vector-2.png"
+                alt="wave vector for section transitions"
+                class="wave-transition">
+        </div>
+
+        <!-- Websites I've created -->
+        <div class="bg-gray">
+            <section class="container mt-5 py-5 p-3 p-sm-1">
+                <div class="row text-white mb-3">
+                    <h3 class="mb-4">My Websites</h3>
+                    <!-- lucasminter.dev -->
+                    <div class="col-12 col-md-6">
+                        <h4><a href="https://www.lucasminter.dev/">lucasminter.dev</a></h4>
+                        <p>My personal blog where I put notes on coding and personal life. It&apos;s built on Next.js and uses Sanity as the CMS. In Figma, I made a basic layout for what I was going to do for the site.</p>
+                    </div>
+                    <!-- imsoloh.com -->
+                    <div class="col-12 col-md-6">
+                        <h4><a href="https://github.com/lsminter/imsoloh-website">imsoloh.com</a></h4>
+                        <p>One of my clan members creates his own YouTube content based on Old School Runescape. I created a simple site that utilizes Framer Motion to get some fun animations for buttons. It also fetches his most recent video from YouTube using YouTube&apos;s API. </p>
+                    </div>
+                    <!-- tea-official.vercel.app -->
+                    <div class="col-12 col-md-6">
+                        <h4><a href="tea-official.vercel.app">tea-official.vercel.app</a></h4>
+                        <p>I&apos;m apart of and am one of the moderators of an Old School Runescape Clan. We do competitions within our clan and against other clans. As we&apos;ve gained more an more members, over 200 at the current time of writing this, we noticed a need for centralizing all of our content. This site groups fetches data from wiseoldman.net using their API where we host our competitions and it records our individual data. I list out our most recent competitions with results as well as individual accomplishments. </p>
+                    </div>
+                    <!-- dmtoolbox.app -->
+                    <div class="col-12 col-md-6">
+                        <h4><a href="https://github.com/lsminter/dnd-5e-dm-toolbox">dmtoolbox.app</a></h4>
+                        <p>This one started out as a small, for fun project to learn how to use chatGPT&apos;s api to create DND characters. It created a description and an image based off of some simple suggestions from the user. As I was building it out, I wanted to allow users to save their characters so I dove into Supabase to learn how to create a backend that would save their characters. I did some data fetching for different monsters so users could also create encounters for their campaigns.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- contact form -->
+        <section class="container p-5 bg-white">
+            <h3 class="mb-4">Contact</h3>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <p>Looking for a new website or someone to promote your code? Look no further!</p>
+                    <p>Message me now!</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <form action="mailto:lsminteris@gmail.com">
+                        <div class="mb-3">
+                            <label for="userMessage"
+                                class="form-label">What do you want to chat about?</label>
+                            <input type="text" class="form-control shadow-sm" id="userMessage" name="subject">
+                        </div>
+                        <button type="submit" class="btn btn-secondary shadow-sm">Email Me</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <div class="pb-5 text-center bg-white">
+            <footer>&copy; Lucas Minter 2024</footer>
+        </div>
+
+    </body>
+
+</html>
